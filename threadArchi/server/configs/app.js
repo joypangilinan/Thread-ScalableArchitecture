@@ -21,6 +21,7 @@ module.exports = function () {
             extended: false
         }));
 
+        const { connection } = mongoose
         //connect the database
         mongoose.connect(
             db.database,
